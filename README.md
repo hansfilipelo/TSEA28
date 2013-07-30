@@ -20,15 +20,12 @@ Release Notes
 ======
 
 Version 0.4
-------------
 - setupKeyLogin now works if folder .ssh doesn't exist in home folder on target machine. 
 
 Version 0.3
-------------
 - Install.sh and setupKeyLogin.sh now recognizes if something goes wrong
 
 Version 0.2
-------------
 - Install.sh now runs setupKeyLogin.sh. No need to manually run setupKeyLogin.sh.
 
 - setupKeyLogin.sh doesn't break key login if already configured. You can use it on multiple clients to login to the same server. If user already has a rsa-key in local .ssh-folder, it will use that key. 
@@ -38,7 +35,6 @@ Version 0.2
 - assemble.sh can now be run with "assemble.sh file username" and it won't prompt you for file and username
 
 Version 0.1
-------------
 - First release
 
 Installation
